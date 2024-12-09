@@ -8,7 +8,7 @@ msg=floor(msg*8)                    %产生随机的5组信号
 MSG=gf(msg,3);                       %将产生的5组信号映射到GF域
 code=rs_rscode(MSG)                 %对5组信号进行编码，得到5组正确的RS码
  
-a=zeros(5,5);
+a=zeros(5,5);%
 b=floor(rand(5,2)*8);
 noise=[a,b];
 NOISE=gf(noise,3);                 %产生噪声信号
