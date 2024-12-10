@@ -9,3 +9,4 @@ if (gf_a == gf(4,3))     distance = 4; end
 if (gf_a == gf(5,3))     distance = 5; end
 if (gf_a == gf(6,3))     distance = 6; end
 if (gf_a == gf(7,3))     distance = 7; end
+%guo
